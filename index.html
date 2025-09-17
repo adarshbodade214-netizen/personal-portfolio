@@ -16,24 +16,6 @@
       color: white;
       padding: 15px;
       text-align: center;
-      position: relative;
-    }
-    header h1 {
-      margin: 0;
-    }
-    .header-btn {
-      position: absolute;
-      top: 15px;
-      right: 20px;
-      padding: 10px 15px;
-      background: #ffcc00;
-      color: #006400;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-    }
-    .header-btn:hover {
-      background: #e6b800;
     }
     section {
       padding: 30px;
@@ -51,9 +33,13 @@
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
+      transition: 0.3s;
     }
     .btn:hover {
       background: #218838;
+    }
+    .whatsapp-btn {
+      background: #25D366 !important;
     }
     footer {
       text-align: center;
@@ -68,8 +54,6 @@
 
   <header>
     <h1>🌿 Welcome to My Forever Aloe Store</h1>
-    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997" 
-       target="_blank" class="header-btn">🛒 Login / Shop with My ID</a>
     <p>Shop directly with Forever Living – Aloe Vera, Nutrition, Personal Care & Skincare</p>
   </header>
 
@@ -113,6 +97,23 @@
        target="_blank" class="btn">Shop Merchandise</a>
   </section>
 
+  <!-- Customer Access -->
+  <section>
+    <h2>🛒 Start Shopping</h2>
+    <p>If you already have a Forever account, log in below.  
+       If you’re new, create your account to shop with me!</p>
+
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997" 
+       target="_blank" class="btn">🔑 Login (Existing Customer)</a>
+
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&newcust=Y" 
+       target="_blank" class="btn">🆕 Create Account (New Customer)</a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/919172025434?text=Hi%20I%20am%20interested%20in%20Forever%20products%20and%20your%20team!" 
+       target="_blank" class="btn whatsapp-btn">💬 Chat on WhatsApp</a>
+  </section>
+
   <footer>
     <p>© 2025 My Forever Aloe Store | Powered by Forever Living</p>
   </footer>
@@ -120,4 +121,3 @@
 </body>
 </html>
 
-      
