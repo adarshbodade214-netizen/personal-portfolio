@@ -9,8 +9,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9fff9;
-      color: #333;
+      background: #f8fff8;
     }
     header {
       background: #006400;
@@ -20,46 +19,45 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2em;
+    }
+    .header-buttons {
+      margin-top: 15px;
+    }
+    .header-buttons a {
+      display: inline-block;
+      margin: 5px;
+      padding: 12px 20px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .header-buttons a.login {
+      background: #007bff;
+    }
+    .header-buttons a:hover {
+      opacity: 0.9;
     }
     section {
-      padding: 40px 20px;
+      padding: 30px;
       text-align: center;
-      border-bottom: 1px solid #ddd;
     }
     h2 {
       color: #006400;
-      margin-bottom: 15px;
-    }
-    p {
-      max-width: 600px;
-      margin: 0 auto 20px;
     }
     .btn {
       display: inline-block;
       margin-top: 10px;
-      padding: 12px 25px;
+      padding: 12px 20px;
       background: #28a745;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 5px;
       font-weight: bold;
-      transition: background 0.3s ease;
     }
     .btn:hover {
       background: #218838;
-    }
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25d366;
-      color: white;
-      padding: 12px 18px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
     }
     footer {
       text-align: center;
@@ -68,52 +66,78 @@
       color: white;
       margin-top: 20px;
     }
+    .whatsapp {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .whatsapp:hover {
+      background: #1ebc57;
+    }
   </style>
 </head>
 <body>
 
   <header>
     <h1>🌿 Welcome to My Forever Aloe Store</h1>
-    <p>Shop Aloe Vera Drinks, Nutrition, Personal Care & Skincare directly from Forever Living</p>
+    <p>Shop Aloe Vera Drinks, Nutrition, Personal Care & Skincare directly with Forever Living</p>
+    <div class="header-buttons">
+      <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997" target="_blank" class="shop">🛒 Shop Now</a>
+      <a href="https://shop.foreverliving.com/retail/entry/LoginRetail.do?store=910709525997" target="_blank" class="login">🔑 Login / Register</a>
+    </div>
   </header>
 
   <!-- Aloe Drinks -->
   <section>
     <h2>🥤 Aloe Drinks</h2>
-    <p>Forever Aloe Vera Gel, Aloe Berry Nectar, Aloe Peaches, and more refreshing drinks.</p>
-    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=aloedrinks" target="_blank" class="btn">Shop Aloe Drinks</a>
+    <p>Aloe Vera Gel, Aloe Berry Nectar, Aloe Peaches, and more.</p>
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=aloedrinks" 
+       target="_blank" class="btn">Shop Aloe Drinks</a>
   </section>
 
   <!-- Nutrition -->
   <section>
     <h2>💊 Nutrition</h2>
-    <p>Forever Daily, Arctic Sea, Absorbent-C, and other powerful nutritional support products.</p>
-    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=nutrition" target="_blank" class="btn">Shop Nutrition</a>
+    <p>Forever Daily, Arctic Sea, Absorbent-C, and other nutritional support.</p>
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=nutrition" 
+       target="_blank" class="btn">Shop Nutrition</a>
   </section>
 
   <!-- Personal Care -->
   <section>
     <h2>🧴 Personal Care</h2>
-    <p>Aloe Hand Soap, Aloe Heat Lotion, Toothgel, and more daily essentials with aloe.</p>
-    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=personalcare" target="_blank" class="btn">Shop Personal Care</a>
+    <p>Aloe Hand Soap, Toothgel, Aloe Heat Lotion, and more.</p>
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=personalcare" 
+       target="_blank" class="btn">Shop Personal Care</a>
   </section>
 
   <!-- Skincare & Beauty -->
   <section>
     <h2>✨ Skincare & Beauty</h2>
-    <p>Infinite by Forever, Sonya Skincare, Aloe Propolis Creme, and natural beauty care.</p>
-    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=skincare" target="_blank" class="btn">Shop Skincare & Beauty</a>
+    <p>Infinite by Forever, Sonya Daily Skincare System, Aloe Propolis Creme.</p>
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=skincare" 
+       target="_blank" class="btn">Shop Skincare & Beauty</a>
   </section>
 
   <!-- Literature & Merchandise -->
   <section>
     <h2>📚 Literature & Merchandise</h2>
-    <p>Forever product guides, brochures, and exclusive branded merchandise.</p>
-    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=literature" target="_blank" class="btn">Shop Merchandise</a>
+    <p>Forever product guides, brochures, and exclusive merchandise.</p>
+    <a href="https://shop.foreverliving.com/retail/entry/Shop.do?store=910709525997&category=literature" 
+       target="_blank" class="btn">Shop Merchandise</a>
   </section>
 
   <!-- WhatsApp Contact -->
-  <a class="whatsapp" href="https://wa.me/919172025434?text=Hi%20I%27m%20interested%20in%20Forever%20products.%20Please%20guide%20me." target="_blank">💬 Chat on WhatsApp</a>
+  <section>
+    <h2>💬 Need Help?</h2>
+    <p>Have questions about products or orders? Chat with me directly on WhatsApp.</p>
+    <a href="https://wa.me/9172025434" target="_blank" class="whatsapp">📱 Chat on WhatsApp</a>
+  </section>
 
   <footer>
     <p>© 2025 My Forever Aloe Store | Powered by Forever Living</p>
